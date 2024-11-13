@@ -1,0 +1,53 @@
+
+
+
+
+body{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+
+}
+
+.main{
+    border: 2px solid black;
+    background-color: aqua;
+    border-radius: 20px;
+    /* height: 300px; */
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 5px 5px 15px black;
+    transition: transform 0.2s;
+    
+}
+.main:hover{
+    transform: scale(1.05);
+
+}
+#todoInput{
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 2px 2px 15px grey;
+    background-color: lightsalmon;
+    /* color: white; */
+}
+
+button{
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    border: 2px solid purple;
+    box-shadow: 2px 2px 15px black;
+    margin: 7px;
+
+}
+
+
+
+   

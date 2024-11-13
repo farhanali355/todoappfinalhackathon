@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo App</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="https://img.utdstc.com/icon/4db/a79/4dba79609f6da29ecc5aba31204dba5ddd7ed0c57e264313f9cccaad19e29397:200" type="image/x-icon">
+        <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+    </head>
+    <body>
+        <div class="main">
+
+            <h1 style="font-family: Arial, Helvetica, sans-serif;font-size: 30px;text-align: center;">Todo App</h1>
+            <div style="text-align: center;">
+                <input placeholder="Enter items.." id="todoInput" type="text">
+                <br>
+                <br>
+                <button onclick="addTodo()">Add items</button>
+                <button onclick="deleteAllItems()">Delete All items</button>
+            </div>
+            <ul id="list"></ul>
+
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
